@@ -1,0 +1,33 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+div::-webkit-scrollbar, textarea::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+div::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: rgba(0, 0, 0, .2);
+}
+
+code {
+  font-family: Source Code Pro, Menlo, Monaco, Consolas, Courier New, monospace, Courier, PingFang SC, Microsoft YaHei;
+}
+
+.ant-form-item-extra {
+  font-size: 13px;
+  padding-top: 6px;
+}
+
+/* Common CSS style */
+.none {
+  display: none;
+}
